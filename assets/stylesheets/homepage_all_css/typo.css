@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: var(--darkblack-color);
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 51px;
+    letter-spacing: 0.07em;
+    color: var(--blue-color);
+}
+
+
+.alternate_h2 {
+    font-size: 48px;
+    color: var(--white-color);
+}
+
+time {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: var(--grey-color);
+}
+
+h3{
+font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: var(--white-color)
+}
+
+
+h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.105em;
+    color: var(--white-color);
+}
+
+.color-orange {
+    color: var(--orange-color);
+}
+
+h5 {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 67px;
+    letter-spacing: 0.07em;
+    text-align: left;
+    color: var(--white-color)
+}
+
+.color-black {
+    color: var(--midblack-color)
+}
+
+article h6 {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: var(--darkblack-color);
+}
+
+h8 {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: var(--midblack-color);
+} 
+
+
+.currentExpo button, .bap_zone button {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--blue-color);
+    align-self: flex-end;
+    width: fit-content;
+    height: fit-content;
+    justify-items: center;
+    align-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: 0.1s;
+    box-sizing: border-box;
+    color: var(--white-color);
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    border: none;
+}
+
+.bap_zone button a{
+    color: var(--white-color);
+}
+
+
+.currentExpo button:hover, .bap_zone button:hover {
+    box-shadow: 5px 5px 0px 0px var(--darkblack-color);
+}
+
+.currentExpo button a{
+    color:var(--white-color);
+}
+
+.blueviewmore {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    padding: 10px 16px;
+    border: none
+}
+
+.buttonarrow {
+    background-color: var(--darkblack-color);
+    color: var(--white-color);
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    padding: 10px 16px;
+    border: none;
+    min-width: 48px;
+    width:auto;
+    height: 42px;
+}
+
+.buttonarrow a {
+    color: var(--white-color);
+}
+
+.bluearrow {
+    background-color: var(--blue-color);
+}
+
+article .buttonarrow::after {
+    content: '->'
+}
+
+article .buttonarrow:hover:after {
+    content: 'Voir plus ->'
+}
+
+.whiteviewmore {
+    background-color: var(--white-color);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.whiteviewmore a {
+    color: var(--black-color);
+}
+
+.blackviewmore {
+    background-color: var(--darkblack-color);
+    color: var(--white-color);
+    margin-top:20px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    padding: 10px 16px;
+    border: none;
+    width:auto;
+    height: 42px;
+}
